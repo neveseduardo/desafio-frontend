@@ -7,7 +7,19 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    Button: typeof import('./../../components/ui/Button.vue')['default']
+    Content: typeof import('./../../components/layouts/content.vue')['default']
+    Default: typeof import('./../../components/layouts/default.vue')['default']
+    Footer: typeof import('./../../components/layouts/footer.vue')['default']
+    Icon: typeof import('./../../components/ui/Icon.vue')['default']
+    Input: typeof import('./../../components/ui/Input.vue')['default']
+    Modal: typeof import('./../../components/ui/Modal.vue')['default']
+    Navbar: typeof import('./../../components/layouts/navbar.vue')['default']
+    Pagination: typeof import('./../../components/ui/Pagination.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Table: typeof import('./../../components/ui/Table.vue')['default']
+    UserList: typeof import('./../../components/modules/UserList.vue')['default']
+    UserSearch: typeof import('./../../components/modules/UserSearch.vue')['default']
   }
 }
