@@ -1,8 +1,12 @@
 <template>
 	<div class="app">
-		App
+		<RouterView name="header" />
+		<Transition
+			name="fade"
+			mode="out-in"
+		>
+			<RouterView />
+		</Transition>
+		<RouterView name="footer" />
 	</div>
 </template>
-
-<script setup lang="ts">
-</script>

@@ -10,6 +10,9 @@ declare module 'vue' {
     Button: typeof import('./../../components/ui/Button.vue')['default']
     Content: typeof import('./../../components/layouts/content.vue')['default']
     Default: typeof import('./../../components/layouts/default.vue')['default']
+    DefaultFooter: typeof import('./../../components/layouts/DefaultFooter.vue')['default']
+    DefaultLayout: typeof import('./../../components/layouts/DefaultLayout.vue')['default']
+    DefaultNavbar: typeof import('./../../components/layouts/DefaultNavbar.vue')['default']
     Footer: typeof import('./../../components/layouts/footer.vue')['default']
     Icon: typeof import('./../../components/ui/Icon.vue')['default']
     Input: typeof import('./../../components/ui/Input.vue')['default']
@@ -19,7 +22,7 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Table: typeof import('./../../components/ui/Table.vue')['default']
-    UserList: typeof import('./../../components/modules/UserList.vue')['default']
-    UserSearch: typeof import('./../../components/modules/UserSearch.vue')['default']
+    UserList: typeof import('./../../components/modules/users/UserList.vue')['default']
+    UserSearch: typeof import('./../../components/modules/users/UserSearch.vue')['default']
   }
 }

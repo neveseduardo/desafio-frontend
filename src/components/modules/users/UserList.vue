@@ -1,8 +1,6 @@
 <template>
-	<div class="user">
-		<UserSearch />
-
-		<UserList />
+	<div class="user-list">
+		UserList
 	</div>
 </template>
 
